@@ -7,10 +7,10 @@ class App(QDialog):
 
     def __init__(self):
         super().__init__()
-        self.title = 'Gray Stuff'
+        self.title = 'idontknowwhy'
         self.left = 10
         self.top = 10
-        self.width = 180
+        self.width = 300
         self.height = 100
         self.initUI()
         
@@ -29,7 +29,7 @@ class App(QDialog):
     
 
     def createGridLayout(self):
-        self.horizontalGroupBox = QGroupBox("XO")
+        self.horizontalGroupBox = QGroupBox("")
         layout = QGridLayout()
         layout.setColumnStretch(1, 2)
         layout.setColumnStretch(1, 4)
@@ -39,12 +39,12 @@ class App(QDialog):
         self.a = QLineEdit(self)
         self.to_hex = QLineEdit(self)
         
-        layout.addWidget(QLabel("Type your script:"),0,0)
+        layout.addWidget(QLabel("Type:"),0,0)
         layout.addWidget(self.a,0,1)
         layout.addWidget(button,1,1)
         layout.addWidget(self.to_hex,2,1)
-        layout.addWidget(QLabel("Copy to clipboard:"),2,0)
-        layout.addWidget(QLabel(""),3,0)
+        layout.addWidget(QLabel("Copy:"),2,0)
+        layout.addWidget(QLabel(""),3,1)
         
 
         self.horizontalGroupBox.setLayout(layout)
