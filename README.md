@@ -7,7 +7,7 @@ sudo apt-get install pyqt5 <b>or</b> python3 -m pip install pyqt5
 mint/ubuntu/....
 link for dowload:
 <a href="https://cloud.mail.ru/public/GofN/anQVhRu6b">downolading pyinstaller compiled linux build</a>
-<blockquote>python3 idontknowwhy.py</blockquote> 
+<br>
 bash:
 if dowloading from link: 
 
