@@ -1,14 +1,17 @@
 <p align='center'>%+'c'</p>
 
 
-
-requirements
-mint/ubuntu/....
 sudo apt-get install pyqt5 <b>or</b> python3 -m pip install pyqt5
-python 3.8:
+
+
+mint/ubuntu/....
+link for dowload:
+<a href="https://cloud.mail.ru/public/GofN/anQVhRu6b">downolading pyinstaller compiled linux build</a>
 <blockquote>python3 idontknowwhy.py</blockquote> 
 
-<a href="./dist/idonknowwhy">downolading pyinstaller compiled linux build</a>
+with git:
+<blockquote>git clone https://github.com/mrflusha/XSS-symbols.git</blockquote>
+<blockquote>python3 -m pip install pyqt5 | cd XSS-symbols | python3 idonknowwhy.py</blockquote>
 
 bash:
 if dowloading from link: 
